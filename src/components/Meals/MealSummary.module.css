@@ -1,0 +1,17 @@
+.section {
+  color: white;
+  background-color: rgb(59, 59, 59);
+  width: 55%;
+  height: 30%;
+  margin-left: 24%;
+  position: absolute;
+  top: 40%;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.p {
+  text-align: center;
+}
