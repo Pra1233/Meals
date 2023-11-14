@@ -8,7 +8,8 @@ const Header = (props) => {
     <React.Fragment>
       <header className={classes.header}>
         <h1>Meals</h1>
-        <HeaderCartButton />
+        {/* Custom onclick */}
+        <HeaderCartButton oClick={props.onShowCart} />
       </header>
       {/* - inside so no use . */}
       <div className={classes["main-image"]}>
